@@ -183,3 +183,24 @@
     }
 }
 /**expert section**/
+
+/**Branding Trust Section**/
+@media only screen and (max-width: 600px){
+    .accordion_image_section{
+        flex-direction: column !important;
+    }
+
+    .fire_blanket_image {
+        width: 400px;
+    }
+
+    .accordion_section {
+        margin: 30px auto;
+        width: 400px;
+    }
+
+    .accordion_list {
+        margin: 0 0 10px 0 !important;
+    }
+}
+/**Branding Trust Section**/

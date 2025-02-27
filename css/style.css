@@ -421,7 +421,6 @@ ul.logo_container li .logo_image {
     margin-top: 10px;
 }
 .right_part{
-    float: right;
     width: 100%;
 }
 /**image with accordion part**/
@@ -784,3 +783,108 @@ input[type="radio"]{
     letter-spacing: .3px;
 }
 /**expert slider**/
+
+/**Branding Trust Section**/
+.accordion_image_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+.fire_blanket_image{
+    width: 567px;
+    height: auto;
+}
+.right_part{}
+.accordion_section{
+    margin: 30px auto;
+    width: 600px;
+}
+.accordion_title{}
+.accordion_img{}
+
+.accordion_list{
+    list-style: none;
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 15px;
+}
+.accordion_heading_part{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.accordion_title{
+    padding: 26px 0 24px;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000;
+    font-weight: 700;
+}
+
+.accordion_right_image{
+  border-radius: 10px;
+  width: 35px;
+  height: 35px;
+}
+
+.accordion_section .accordion_list label{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.accordion_list label::before{
+    content: '>';
+    margin-right: 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+input[type="radio"]{
+    display:none;
+}
+
+.accordion_section .content{
+    color: #555;
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+.accordion_section input[type="radio"]:checked + label + .content{
+    max-height: 400px;
+    padding: 10px 10px 20px;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000;
+    font-weight: 400;
+}
+
+.accordion_section input[type="radio"]:checked + label::before{
+    content: '-';
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content_img{
+    width: 90px;
+    height: auto;
+}
+/**accordion style**/
+
+/**Branding Trust Section**/
