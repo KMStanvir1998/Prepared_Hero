@@ -844,7 +844,7 @@ input[type="radio"]{
 }
 
 .accordion_list label::before{
-    content: '>';
+    content: '+';
     margin-right: 10px;
     font-size: 24px;
     font-weight: 600;
